@@ -129,9 +129,18 @@ collections = [
     ]}]},
 ]
 
+import os
+backend = {"name": "github", "repo": "Ireshaprabodhani/elaine-forest-view", "branch": "main",
+           "commit_messages": {"update": "Content: update {{slug}} via admin panel"}}
+# Email/password login: paste the `backend:` block that DecapBridge generates
+# into scripts/cms-backend.yml and re-run this script. It replaces the GitHub login.
+_override = os.path.join(os.path.dirname(__file__), "cms-backend.yml")
+if os.path.exists(_override):
+    _b = yaml.safe_load(open(_override))
+    backend = _b.get("backend", _b)
+
 config = {
-  "backend": {"name": "github", "repo": "Ireshaprabodhani/elaine-forest-view", "branch": "main",
-              "commit_messages": {"update": "Content: update {{slug}} via admin panel"}},
+  "backend": backend,
   "local_backend": True,
   "site_url": "https://www.elaineforestview.lk",
   "display_url": "https://www.elaineforestview.lk",
