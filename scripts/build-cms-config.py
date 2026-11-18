@@ -142,8 +142,8 @@ if os.path.exists(_override):
 config = {
   "backend": backend,
   "local_backend": True,
-  "site_url": "https://www.elaineforestview.lk",
-  "display_url": "https://www.elaineforestview.lk",
+  "site_url": "https://elaineforestview.netlify.app",
+  "display_url": "https://elaineforestview.netlify.app",
   "logo_url": "/admin/logo.svg",
   "media_folder": "public/images",
   "public_folder": "/images",
