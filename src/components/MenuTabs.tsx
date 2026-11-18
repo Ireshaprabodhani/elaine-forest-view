@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { MenuGroup } from "@/data/site";
+import { MenuGroup, rs } from "@/data/site";
 
 export default function MenuTabs({ groups }: { groups: MenuGroup[] }) {
   const [active, setActive] = useState("All");
@@ -33,7 +33,7 @@ export default function MenuTabs({ groups }: { groups: MenuGroup[] }) {
               {g.items.map((i) => (
                 <li key={i.name} className="flex items-baseline justify-between gap-4 py-3">
                   <span className="text-[15px]">{i.name}</span>
-                  <span className="shrink-0 font-display text-[17px] font-semibold">{i.price}</span>
+                  <span className="shrink-0 font-display text-[17px] font-semibold">{rs(i.price)}</span>
                 </li>
               ))}
             </ul>

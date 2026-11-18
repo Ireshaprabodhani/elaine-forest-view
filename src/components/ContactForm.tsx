@@ -2,11 +2,10 @@
 
 import { useState } from "react";
 import { WhatsAppIcon } from "./Icons";
-import { whatsappLink } from "@/data/site";
-
-const topics = ["Room booking", "Wedding / event", "Restaurant / takeaway", "Other"];
+import { contactPage, whatsappLink } from "@/data/site";
 
 export default function ContactForm() {
+  const topics = contactPage.enquiryTopics.length ? contactPage.enquiryTopics : ["General"];
   const [form, setForm] = useState({ name: "", phone: "", topic: topics[0], date: "", message: "" });
   const set = (k: keyof typeof form) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) =>
     setForm((f) => ({ ...f, [k]: e.target.value }));
@@ -31,7 +30,7 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={onSubmit} className="rounded-2xl border border-sand bg-white p-6 lg:p-8">
-      <h2 className="font-display text-[24px] font-semibold">Send an enquiry</h2>
+      <h2 className="font-display text-[24px] font-semibold">{contactPage.formTitle}</h2>
       <div className="mt-5 grid gap-4 sm:grid-cols-2">
         <div>
           <label htmlFor="name" className={label}>Your name</label>
@@ -59,7 +58,7 @@ export default function ContactForm() {
       <button type="submit" className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-maroon px-[22px] py-[14px] text-[15px] font-semibold text-white hover:bg-maroon-dark">
         <WhatsAppIcon /> Send enquiry
       </button>
-      <p className="mt-3 text-center text-[13px] text-muted">Your enquiry opens in WhatsApp so we can reply faster.</p>
+      <p className="mt-3 text-center text-[13px] text-muted">{contactPage.formNote}</p>
     </form>
   );
 }

@@ -1,0 +1,113 @@
+{
+  "hero": {
+    "eyebrow": "Dining",
+    "body": "Home-style Sri Lankan and Chinese favourites, cooked fresh in our kitchen.",
+    "orderTypes": "Dine in · Takeaway · Delivery",
+    "image": "",
+    "imageCaption": "Photo: Elo's House dining area with food on the table"
+  },
+  "menuTitle": "Popular dishes",
+  "menuTotalItems": 118,
+  "menu": [
+    {
+      "category": "Rice & Curry",
+      "items": [
+        {
+          "name": "Chicken rice & curry",
+          "price": "____",
+          "featured": true
+        },
+        {
+          "name": "Fish rice & curry",
+          "price": "____",
+          "featured": true
+        },
+        {
+          "name": "Vegetable rice & curry",
+          "price": "____",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "category": "Fried Rice",
+      "items": [
+        {
+          "name": "Chicken fried rice",
+          "price": "____",
+          "featured": true
+        },
+        {
+          "name": "Seafood fried rice",
+          "price": "____",
+          "featured": false
+        },
+        {
+          "name": "Egg fried rice",
+          "price": "____",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "category": "Kottu",
+      "items": [
+        {
+          "name": "Chicken kottu",
+          "price": "____",
+          "featured": false
+        },
+        {
+          "name": "Cheese kottu",
+          "price": "____",
+          "featured": false
+        },
+        {
+          "name": "Egg kottu",
+          "price": "____",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "category": "Devilled",
+      "items": [
+        {
+          "name": "Devilled chicken",
+          "price": "____",
+          "featured": false
+        },
+        {
+          "name": "Devilled fish",
+          "price": "____",
+          "featured": false
+        },
+        {
+          "name": "Hot butter cuttlefish",
+          "price": "____",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "category": "Drinks",
+      "items": [
+        {
+          "name": "Fresh fruit juice",
+          "price": "____",
+          "featured": false
+        },
+        {
+          "name": "Milkshake",
+          "price": "____",
+          "featured": false
+        },
+        {
+          "name": "Tea / coffee",
+          "price": "____",
+          "featured": false
+        }
+      ]
+    }
+  ]
+}

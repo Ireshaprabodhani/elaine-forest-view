@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
 import GalleryGrid from "@/components/GalleryGrid";
+import { galleryPage as g } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Gallery",
@@ -11,7 +12,7 @@ export const metadata: Metadata = {
 export default function GalleryPage() {
   return (
     <>
-      <PageHero eyebrow="Gallery" title="A look around" body="Rooms, celebrations, food and the hotel itself." />
+      <PageHero eyebrow={g.hero.eyebrow} title={g.hero.title} body={g.hero.body} />
       <section className="container-x py-14 lg:py-20"><GalleryGrid /></section>
     </>
   );

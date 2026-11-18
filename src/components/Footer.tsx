@@ -9,7 +9,7 @@ export default function Footer() {
         <div>
           <Logo light />
           <p className="mt-4 max-w-xs text-[14px] text-white/75">
-            Rooms, weddings & events and dining at {site.restaurant}, in the heart of Monaragala.
+            {site.footerText}
           </p>
         </div>
         <div>
@@ -17,6 +17,7 @@ export default function Footer() {
           <address className="text-[14px] not-italic leading-relaxed text-white/85">
             {site.address.line1}
             <br />
+            {site.address.street && !/^_+$/.test(site.address.street) && (<>{site.address.street}<br /></>)}
             {site.address.city}, {site.address.region}
             <br />
             {site.address.country}

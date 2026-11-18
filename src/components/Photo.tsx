@@ -11,7 +11,7 @@ export default function Photo({
   rounded = "rounded-2xl",
 }: {
   caption: string;
-  src?: string;
+  src?: string | null;
   className?: string;
   rounded?: string;
 }) {

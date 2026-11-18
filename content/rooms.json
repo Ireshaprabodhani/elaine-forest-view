@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "eyebrow": "Rooms",
+    "title": "Rooms for every trip",
+    "body": "Air-conditioned single, double and triple rooms in the centre of Monaragala. Message us on WhatsApp to check dates and get the best rate."
+  },
+  "rooms": [
+    {
+      "name": "Single Room",
+      "sleeps": "1 guest",
+      "details": "Air-conditioned · private bathroom · hot water · Wi-Fi",
+      "price": "____",
+      "image": "",
+      "imageCaption": "Photo: single room, bed made, daylight"
+    },
+    {
+      "name": "Double Room",
+      "sleeps": "2 guests",
+      "details": "Air-conditioned · private bathroom · hot water · Wi-Fi",
+      "price": "____",
+      "image": "",
+      "imageCaption": "Photo: double room with forest view"
+    },
+    {
+      "name": "Triple Room",
+      "sleeps": "3 guests",
+      "details": "Air-conditioned · private bathroom · hot water · Wi-Fi",
+      "price": "____",
+      "image": "",
+      "imageCaption": "Photo: triple room, wide shot"
+    }
+  ],
+  "amenities": [
+    "Air conditioning",
+    "Private bathroom with hot water",
+    "Free Wi-Fi",
+    "Free parking",
+    "Room service from Elo's House",
+    "Daily housekeeping"
+  ],
+  "goodToKnow": [
+    "Check-in from ____, check-out by ____",
+    "Meals available at Elo's House, open 7:00 am – 11:00 pm",
+    "About 270 m from the Monaragala clock tower",
+    "Book directly on WhatsApp for the best rate"
+  ],
+  "cta": {
+    "title": "Ready to book?",
+    "body": "Send us your dates on WhatsApp — we usually reply within minutes."
+  }
+}

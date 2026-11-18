@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import Button from "@/components/Button";
 import ContactForm from "@/components/ContactForm";
 import MapEmbed from "@/components/MapEmbed";
-import { site, telLink, whatsappLink } from "@/data/site";
+import { contactPage as c, site, telLink, whatsappLink } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -15,13 +15,13 @@ export default function ContactPage() {
   const details = [
     { label: "Phone", value: site.phoneDisplay, href: telLink },
     { label: "Email", value: site.email, href: `mailto:${site.email}` },
-    { label: "Address", value: site.address.full, href: site.mapsUrl },
+    { label: "Address", value: site.addressFull, href: site.mapsUrl },
     { label: `${site.restaurant} hours`, value: site.restaurantHours },
     { label: "Check-in / check-out", value: `${site.checkIn} / ${site.checkOut}` },
   ];
   return (
     <>
-      <PageHero eyebrow="Contact" title="Talk to us" body="The fastest way to reach us is WhatsApp. We're happy to answer questions about rooms, weddings and food orders.">
+      <PageHero eyebrow={c.hero.eyebrow} title={c.hero.title} body={c.hero.body}>
         <div className="mt-7 flex flex-wrap gap-3">
           <Button href={whatsappLink()} variant="whatsapp">WhatsApp us</Button>
           <Button href={telLink} variant="secondary" icon="phone">Call {site.phoneDisplay}</Button>

@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "eyebrow": "Gallery",
+    "title": "A look around",
+    "body": "Rooms, celebrations, food and the hotel itself."
+  },
+  "photos": [
+    {
+      "caption": "Hotel front at golden hour",
+      "category": "Hotel",
+      "image": ""
+    },
+    {
+      "caption": "Double room",
+      "category": "Rooms",
+      "image": ""
+    },
+    {
+      "caption": "Wedding hall set up",
+      "category": "Weddings",
+      "image": ""
+    },
+    {
+      "caption": "Rice & curry spread",
+      "category": "Dining",
+      "image": ""
+    },
+    {
+      "caption": "Poruwa ceremony",
+      "category": "Weddings",
+      "image": ""
+    },
+    {
+      "caption": "Triple room",
+      "category": "Rooms",
+      "image": ""
+    },
+    {
+      "caption": "Elo's House dining area",
+      "category": "Dining",
+      "image": ""
+    },
+    {
+      "caption": "Garden & forest view",
+      "category": "Hotel",
+      "image": ""
+    },
+    {
+      "caption": "Buffet table",
+      "category": "Weddings",
+      "image": ""
+    },
+    {
+      "caption": "Single room",
+      "category": "Rooms",
+      "image": ""
+    },
+    {
+      "caption": "Kottu & drinks",
+      "category": "Dining",
+      "image": ""
+    },
+    {
+      "caption": "Reception & lobby",
+      "category": "Hotel",
+      "image": ""
+    }
+  ]
+}

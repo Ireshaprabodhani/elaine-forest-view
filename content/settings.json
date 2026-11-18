@@ -1,0 +1,45 @@
+{
+  "name": "Elaine Forest View",
+  "restaurant": "Elo's House",
+  "url": "https://www.elaineforestview.lk",
+  "description": "Rooms, weddings & events and dining at Elo's House — in the heart of Monaragala, Uva Province, Sri Lanka.",
+  "phoneDisplay": "077 664 7648",
+  "phoneIntl": "+94776647648",
+  "whatsappNumber": "94776647648",
+  "whatsappDefaultMessage": "Hello Elaine Forest View, I would like to know more.",
+  "email": "elainenaturepark@gmail.com",
+  "address": {
+    "line1": "Elaine Forest View",
+    "street": "____",
+    "city": "Monaragala",
+    "region": "Uva Province",
+    "country": "Sri Lanka"
+  },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Elaine+Forest+View+Monaragala",
+  "mapEmbed": "https://www.google.com/maps?q=Elaine+Forest+View+Monaragala&output=embed",
+  "ratingValue": 4.6,
+  "ratingCount": 436,
+  "restaurantHours": "Open daily, 7:00 am – 11:00 pm",
+  "checkIn": "____",
+  "checkOut": "____",
+  "facebook": "https://www.facebook.com/",
+  "footerText": "Rooms, weddings & events and dining at Elo's House, in the heart of Monaragala.",
+  "nearby": [
+    {
+      "place": "Monaragala clock tower",
+      "distance": "270 m"
+    },
+    {
+      "place": "Monaragala bus stand",
+      "distance": "____"
+    },
+    {
+      "place": "Monaragala hospital",
+      "distance": "____"
+    },
+    {
+      "place": "[Owner to add: nearby attraction]",
+      "distance": "____"
+    }
+  ]
+}

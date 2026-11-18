@@ -3,7 +3,7 @@ import PageHero from "@/components/PageHero";
 import RoomCard from "@/components/RoomCard";
 import CtaBanner from "@/components/CtaBanner";
 import { CheckIcon } from "@/components/Icons";
-import { goodToKnow, roomAmenities, rooms } from "@/data/site";
+import { roomsPage } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Rooms",
@@ -14,17 +14,17 @@ export const metadata: Metadata = {
 export default function RoomsPage() {
   return (
     <>
-      <PageHero eyebrow="Rooms" title="Rooms for every trip" body="Air-conditioned single, double and triple rooms in the centre of Monaragala. Message us on WhatsApp to check dates and get the best rate." />
+      <PageHero eyebrow={roomsPage.hero.eyebrow} title={roomsPage.hero.title} body={roomsPage.hero.body} />
       <section className="container-x py-14 lg:py-20">
         <div className="grid gap-6 md:grid-cols-3">
-          {rooms.map((r) => <RoomCard key={r.slug} room={r} />)}
+          {roomsPage.rooms.map((r) => <RoomCard key={r.name} room={r} />)}
         </div>
         <div className="mt-14 grid gap-6 md:grid-cols-2">
-          <List title="In every room" items={roomAmenities} />
-          <List title="Good to know" items={goodToKnow} />
+          <List title="In every room" items={roomsPage.amenities} />
+          <List title="Good to know" items={roomsPage.goodToKnow} />
         </div>
       </section>
-      <CtaBanner title="Ready to book?" body="Send us your dates on WhatsApp — we usually reply within minutes." message="Hello, I would like to book a room. Dates: " />
+      <CtaBanner title={roomsPage.cta.title} body={roomsPage.cta.body} message="Hello, I would like to book a room. Dates: " />
     </>
   );
 }

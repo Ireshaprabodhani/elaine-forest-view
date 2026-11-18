@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "eyebrow": "Monaragala · Uva Province",
+    "title": "Stay, dine and celebrate in the heart of Monaragala",
+    "body": "Clean, comfortable rooms, a wedding hall with an in-house kitchen, and Elo's House restaurant — all a short walk from the Monaragala clock tower.",
+    "image": "",
+    "imageCaption": "Photo: hotel front at golden hour (main hero photo)"
+  },
+  "offersTitle": "Everything for your stay or celebration",
+  "offers": [
+    {
+      "title": "Comfortable rooms",
+      "body": "Single, double and triple air-conditioned rooms in the town centre.",
+      "link": "/rooms/",
+      "image": "",
+      "imageCaption": "Photo: a made-up double room"
+    },
+    {
+      "title": "Weddings & events",
+      "body": "An air-conditioned hall, buffet from our own kitchen and rooms for the bridal party.",
+      "link": "/weddings/",
+      "image": "",
+      "imageCaption": "Photo: wedding hall decorated"
+    },
+    {
+      "title": "Dining at Elo's House",
+      "body": "Rice & curry, kottu, fried rice and more — dine in, takeaway or delivery.",
+      "link": "/dining/",
+      "image": "",
+      "imageCaption": "Photo: rice & curry spread"
+    }
+  ],
+  "roomsSection": {
+    "title": "Rest well in Monaragala",
+    "body": "Air-conditioned rooms with private bathrooms, hot water and free Wi-Fi."
+  },
+  "weddingsSection": {
+    "title": "Celebrate your big day with us",
+    "body": "An air-conditioned hall, buffet from our own kitchen, free parking and rooms for the bridal party."
+  },
+  "diningSection": {
+    "title": "Sri Lankan favourites, cooked fresh",
+    "photos": [
+      {
+        "image": "",
+        "caption": "Photo: kottu close-up"
+      },
+      {
+        "image": "",
+        "caption": "Photo: fried rice"
+      },
+      {
+        "image": "",
+        "caption": "Photo: restaurant interior"
+      }
+    ]
+  },
+  "reviews": [
+    {
+      "quote": "[Paste a real Google review here]",
+      "author": "Reviewer name · Google"
+    },
+    {
+      "quote": "[Paste a real Google review here]",
+      "author": "Reviewer name · Google"
+    },
+    {
+      "quote": "[Paste a real Google review here]",
+      "author": "Reviewer name · Google"
+    }
+  ],
+  "locationTitle": "In the heart of Monaragala"
+}

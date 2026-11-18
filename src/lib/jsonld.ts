@@ -19,8 +19,8 @@ export function hotelJsonLd() {
     hasMap: site.mapsUrl,
     aggregateRating: {
       "@type": "AggregateRating",
-      ratingValue: site.rating.value,
-      reviewCount: site.rating.count,
+      ratingValue: site.ratingValue,
+      reviewCount: site.ratingCount,
     },
     amenityFeature: ["Air conditioning", "Free Wi-Fi", "Free parking", "Restaurant", "Banquet hall"].map((name) => ({
       "@type": "LocationFeatureSpecification",

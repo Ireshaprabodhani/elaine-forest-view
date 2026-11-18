@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Talk to us",
+    "body": "The fastest way to reach us is WhatsApp. We're happy to answer questions about rooms, weddings and food orders."
+  },
+  "formTitle": "Send an enquiry",
+  "formNote": "Your enquiry opens in WhatsApp so we can reply faster.",
+  "enquiryTopics": [
+    "Room booking",
+    "Wedding / event",
+    "Restaurant / takeaway",
+    "Other"
+  ]
+}

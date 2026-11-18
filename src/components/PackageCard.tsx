@@ -1,6 +1,6 @@
 import Button from "./Button";
 import { CheckIcon } from "./Icons";
-import { WeddingPackage, whatsappLink } from "@/data/site";
+import { WeddingPackage, rs, whatsappLink } from "@/data/site";
 
 export default function PackageCard({ pkg }: { pkg: WeddingPackage }) {
   return (
@@ -13,7 +13,7 @@ export default function PackageCard({ pkg }: { pkg: WeddingPackage }) {
       <p className="eyebrow">Wedding package</p>
       <h3 className="mt-2 font-display text-[28px] font-semibold text-maroon lg:text-[34px]">{pkg.name}</h3>
       <p className="mt-2 text-[13px] text-muted">
-        From <span className="font-display text-[20px] font-semibold text-ink">Rs {pkg.price}</span> per head
+        From <span className="font-display text-[20px] font-semibold text-ink">{rs(pkg.price)}</span> per head
       </p>
       <ul className="mt-5 flex-1 space-y-2.5 text-[15px]">
         {pkg.includes.map((i) => (

@@ -1,0 +1,84 @@
+{
+  "hero": {
+    "eyebrow": "Weddings & events",
+    "title": "Your wedding, made easy in Monaragala",
+    "body": "Hall, buffet, decoration and rooms for the bridal party — all in one place, planned with one team.",
+    "image": "",
+    "imageCaption": "Photo: decorated wedding hall with poruwa"
+  },
+  "packagesTitle": "Choose your wedding package",
+  "packagesBody": "Prices are per head. Every package can be adjusted to your needs.",
+  "packages": [
+    {
+      "name": "Silver",
+      "price": "____",
+      "featured": false,
+      "includes": [
+        "Air-conditioned hall",
+        "Buffet menu",
+        "Basic decoration",
+        "Free parking"
+      ]
+    },
+    {
+      "name": "Gold",
+      "price": "____",
+      "featured": true,
+      "includes": [
+        "Everything in Silver",
+        "Upgraded buffet menu",
+        "Poruwa & stage decoration",
+        "Welcome drink"
+      ]
+    },
+    {
+      "name": "Platinum",
+      "price": "____",
+      "featured": false,
+      "includes": [
+        "Everything in Gold",
+        "Premium buffet menu",
+        "Bridal room for the day",
+        "Cake structure & table setup"
+      ]
+    }
+  ],
+  "hallDetails": [
+    "Capacity: ___ guests",
+    "Air-conditioned hall",
+    "Free parking",
+    "In-house kitchen & buffet",
+    "Rooms for the bridal party"
+  ],
+  "eventTypes": [
+    "Weddings",
+    "Homecomings",
+    "Engagements",
+    "Birthdays",
+    "Office parties",
+    "Almsgivings",
+    "Get-togethers"
+  ],
+  "celebrations": [
+    {
+      "image": "",
+      "caption": "Photo: couple at the poruwa"
+    },
+    {
+      "image": "",
+      "caption": "Photo: hall set for dinner"
+    },
+    {
+      "image": "",
+      "caption": "Photo: buffet table"
+    },
+    {
+      "image": "",
+      "caption": "Photo: cake & stage"
+    }
+  ],
+  "cta": {
+    "title": "Planning a wedding or event?",
+    "body": "Tell us your date and guest count — we'll check availability and send a quote."
+  }
+}
