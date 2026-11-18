@@ -38,7 +38,7 @@ How it works: [Decap CMS](https://decapcms.org) (free, open source). Content is 
 npm run dev      # terminal 1 — site at http://localhost:3000
 npm run cms      # terminal 2 — lets /admin save straight to your local files
 ```
-Open `http://localhost:3000/admin/index.html`. Changes are written to `content/*.json`; commit and push them when done.
+Open `http://localhost:3000/admin/` (both commands must be running — without `npm run cms` the login screen asks for GitHub and won't work locally). Changes are written to `content/*.json`; commit and push them when done.
 
 ### Changing the admin forms
 The form layout lives in `scripts/build-cms-config.py`. Edit it, then run `npm run cms:config` to regenerate `public/admin/config.yml`.
